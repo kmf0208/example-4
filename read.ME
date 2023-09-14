@@ -1,0 +1,8 @@
+EXPERIMENT FUNCTION 
+
+fetch('http://localhost:3000/notes')
+  .then(response => {
+    return response.json(); // Parse the response body as JSON
+    }).then(data => {
+    console.log(data);
+  })
